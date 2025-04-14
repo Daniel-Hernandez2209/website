@@ -1,5 +1,40 @@
-h1{
-    color:blue;
-    text-transform: uppercase;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+  }
+  .calculadora {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  #pantalla {
+    width: 240px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding: 5px;
+    text-align: right;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  .boton {
+    width: 55px;
+    height: 55px;
     font-size: 20px;
-}
+    margin: 5px;
+    cursor: pointer;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.2s;
+  }
+  .boton:hover {
+    background: #666;
+  }
